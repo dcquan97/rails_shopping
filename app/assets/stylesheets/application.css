@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+/*!
+ * Start Bootstrap - Shop Item (https://startbootstrap.com/template-overviews/shop-item)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-item/blob/master/LICENSE)
+ */
+/*"bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables" */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+body {
+  padding-top: 56px;
+}

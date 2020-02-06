@@ -19,6 +19,11 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'seed-fu'
 gem 'pry'
+gem 'devise', "~> 4.1"
+gem 'bcrypt'
+gem "sprockets-rails", :require => "sprockets/railtie"
+gem 'sassc'
+
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
