@@ -3,8 +3,7 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
-  #gem bcrypt
-  has_secure_password
+
 
   has_one  :cart, ->{unpaid}, class_name: Cart.name
   has_one  :unpaid_item, through: :cart, source: :cart_items

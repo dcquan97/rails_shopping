@@ -1,5 +1,9 @@
 class UsersController < ApplicationController
 
+  layout 'users_application'
+
+  before_action :authenticate_user!, only: [:index, :new]
+
   def index
   end
 
