@@ -10,7 +10,7 @@ gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
-gem 'sass-rails', '>= 6'
+# gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 4.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -21,8 +21,12 @@ gem 'seed-fu'
 gem 'pry'
 gem 'devise', "~> 4.1"
 gem "sprockets-rails", :require => "sprockets/railtie"
-gem 'sassc'
-
+# gem 'sassc'
+gem "will_paginate"
+gem "bootstrap-will_paginate"
+gem 'bootstrap-sass'
+gem 'coffee-rails', '4.2.2'
+gem 'jquery-rails', '4.3.1'
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
